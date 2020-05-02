@@ -1,0 +1,48 @@
+git status: check status of our repository
+git init: make a git repository
+git add <filename> <filename>...: add file in staging area
+git restore --staged <filename>: to unstage the file
+git add -a: put all files in staging area
+git commit -m ""Commit Message"
+git log: log of commits with commit message
+git log -p: log of commits with change details
+git log -p -2: log of last 2 commits
+git log --stat: log of commits with short description
+git log --pretty=oneline: logs allcommits in oneline
+git log --pretty=short: logs all commits in short
+git log --pretty=full: logs all commits in more detail
+git log --since=2.days: show commit logs off previous 2 days only
+git log --since=2.weeks git log --since=2.months git log --since=2.years
+git log --pretty=format:"%h -- %an": logs the commits is given format
+(https://git-scm.com/docs/git-log)
+git add <filename> : stage only filename file
+rm -rf .git: delete the repository
+git clone <repository link>: copies repository in local
+git clone <repository link> <new name>: copies repository in local and rename it 
+pwd: present worling dirctory
+ls: list contents
+cd: change directory
+touch <filename>: make new file
+touch .gitignore: we put name of error.log/or any other file /directory here to ignore its tracking.
+
+in .gitignore: dir/ we all ignore all dir, but to ignore dir only in outer folder 
+we use/dir/
+
+If you stage a file and then modify it, the staging area will still have the older version.
+git diff: compare stageing area with working area.
+git diff --staged: compare last with staged area
+
+git commit -a -m "message": commits all tracked files, with tracking
+git rm <filename>: remove as well as stage a file using git
+git mv <oldname> <newname>: renaming the file (and stage)
+
+git checkout -- <filename>: unmodify file and make it as last commit
+git rm --cached <filename>: untrack file
+git checkout -f: unmodify the directory, take it to last commit
+
+
+git remote add origin https://github.com/ayushi-sijaria/GitTutorial.git: add local repository remotely
+origin is name ; can be anything
+git remote -v: gives link to push and pull
+
+git restore <filename>: restire previous commit version of file
